@@ -3,3 +3,75 @@
 <H2> Developer Ashish : </h2>
 
 I am Developer 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.container
+{
+    background: url('pexels-fwstudio-129731.jpg')no-repeat center center/cover;
+    height: 1000px;
+}
+.Login
+{
+ display: flex;
+ flex-direction: column;   
+ position: absolute;
+ top: 300px;
+ left: 600px;
+ font-size: 40px;
+}
+.Login input 
+{
+    color: red;
+    background: rgb(48, 95, 0);
+    border: 3px solid blue;
+    border-radius: 15px;
+    display: flex;
+    padding: 5px 20px;
+
+}
+.Login input placeholder:hover
+{
+    color: rgb(11, 14, 165);
+ 
+}
+.center
+{
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 5px;
+    font-size: 20px;
+    background-color: rgb(148, 36, 36);
+    border-radius: 14px;
+}
+.center:hover
+{
+    background-color: red;
+    border: none;
+    box-shadow: 4px 4px 32px red;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+    <form action="">
+         <div class="Login">
+            <label for="name">Username</label>
+            <input type="text" name="name" id="name" placeholder="Enter Your username">
+       
+            <label for="name">Password</label>
+            <input type="text" name="name" id="name" placeholder="Enter Your Password">
+        <button class="center" id="Submit">Submit</button>
+     </div>
+        
+    </form>
+</div>
+</body>
+</html>
